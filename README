@@ -1,28 +1,17 @@
 See GitHub/DTRules/DTRules
 http://DTRules.com 
 
-DTRules is a Decision Table based Rules Engine.
+Got rid of all the other projects.  Kinda sorta renamed one of the projects "Project" . It 
+can be found at:
 
-Decision Tables coupled with the use of a Domain Specific Langauge (DSL) 
-provide about the best approach around to describe complex policy and logic. 
-Decision Tables provide a common representation of policy and rules that 
-can be understood by policy experts and developers alike.  A DSL insures 
-the syntax for conditions and actions does not become a barrier to policy 
-experts in understanding the tables.
+DTRules/projects/Project
 
-DTRules is distributed under the Apache License Version 2.0. 
+To compile Decision Tables:
+	1. Put Decision Tables in DTRules/projects/Project/DecisionTables
+	2. Put the EDD in DTRules/projects/Project/edd
+	3. Update mapping file: DTRules/projects/Project/xml/project_map.xml
+	4. cd to DTRules/projects/Project
+	5. java -jar Compile.jar
+	6. You can run testfiles with java -jar Run.jar
+	
 
-Copyright 2004-2011 DTRules.com,
-
-DTRules is a Trademark of DTRules.com
-
-Licensed under the Apache License, Version 2.0 (the "License"); you may not 
-use this file except in compliance with the License. You may obtain a copy 
-of the License at
-
-http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software distributed 
-under the License is distributed on an “AS IS” BASIS, WITHOUT WARRANTIES OR 
-CONDITIONS OF ANY KIND, either express or implied. See the License for the 
-specific language governing permissions and limitations under the License.
